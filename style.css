@@ -14,9 +14,9 @@
 
 :root {
     --color-black: #000000;
-    --color-white: #ffffff;
-    --color-dark: #353535;
-    --color-dark-variant: #555555;
+    --color-white: white;
+    --color-dark: black;
+    --color-dark-variant: black;
 
     --transition: .4s ease;
 }
@@ -213,6 +213,15 @@ nav {
     padding-top: 100px;
 }
 
+.header-bg {
+    background-image: url('Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensure text is visible */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
 .header-container .container {
     text-align: center; /* Center align header content */
 }
@@ -394,7 +403,7 @@ nav {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid black;
+    border: 1px black;
     border-radius: 5px;
     box-sizing: border-box;
 }
